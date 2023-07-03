@@ -1,0 +1,3 @@
+vpc:
+    source:  "https://https://github.com/bohrapankajs/tf-module-vpc.git"
+    version: "main" # this is main branch but should be dev branch
