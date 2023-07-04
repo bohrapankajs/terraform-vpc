@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh "terrafile -f env-${ENV}/Terrafile"
                 // sh "terraform init --backend-config=env-${ENV}/${ENV}-backend.tfvars"
-                sh "terraform init "
+                sh "terraform init -upgrade "
             }
         }
         stage("Terrafoem Plan") {
