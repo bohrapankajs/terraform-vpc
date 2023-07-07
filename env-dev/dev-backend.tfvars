@@ -1,3 +1,3 @@
-bucket = "b51-tf-remote-state-buckets"
+bucket = "mysecond-bucket-01"
 key    = "vpc/dev/terraform.tfstate"
 region = "us-east-1"
